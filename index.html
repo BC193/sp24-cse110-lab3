@@ -26,7 +26,7 @@
             <p><span>This is the plan for this weeks meeting</span></p>
 
             <details>
-                <summary>Unfinished Business</summary>
+                <summary><i>Unfinished Business</i></summary>
                 <ol>
                     <li>Update the pull requests</li>
                     <li>Discuss website iterations</li>
@@ -69,7 +69,7 @@
         <section>
             <h2><b>Documentation</b></h2>  
             <details>
-                <summary> Comments, Questions, or Concerns</summary>
+                <summary><i>Comments, Questions, and Concerns</i></summary>
                 <ul>
                     <li>What is the next long term goal?</li>
                     <li>Collectively don't like machine code</li>
@@ -99,19 +99,21 @@
                     <input type="text" id="lname" name="lname"><br><br>
 
                     <label for="device">Select your device type</label>
+                    <input list="device" id="devices">  
                     <datalist id="device">
                         <option value="Mobile">
                         <option value="PC">
-                    </datalist>
+                    </datalist> <br><br>
 
                     <label for="110">Are you in CSE110?</label>
                     <select name="110">
                         <option>Yes</option>
                         <option>No</option>
-                    </select>
+                    </select> <br><br>
 
                     <label for="box">Any other comments/concerns?</label>
-                    <textarea id="box"></textarea>
+                    <textarea id="box"></textarea> <br><br>
+
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
