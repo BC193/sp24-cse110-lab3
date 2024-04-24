@@ -40,7 +40,7 @@
   }
 
  #id {
-    text-align: center;
+    text-align: start;
     color: red;
   }
 
@@ -52,10 +52,9 @@
     text-decoration: overline underline;
  }
 
- /**/
- p {
-    text-align: center;
-    color: red;
+ /*Element Selector*/
+ ol {
+    display: block;
   }
 
   a[target] {
