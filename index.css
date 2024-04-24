@@ -1,4 +1,9 @@
-/*Class selector for class links and block*/
+/*Class selector for class container, links, and block*/
+ .container{
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+ }
  .links {
     background-color: hsl(195, 53%, 79%);
     color: rgb(0,0,0);
@@ -53,8 +58,8 @@
  }
 
  /*Element Selector*/
- ol {
-    display: block;
+ h2 {
+    font-family: helvetica;
   }
 
   a[target] {
@@ -65,7 +70,7 @@
     color: #FF00FF;
   }
 
-  h2, h3, h4, h5, h6 {
+  h3, h4, h5, h6 {
     font-family: helvetica;
   }
 
@@ -92,3 +97,11 @@
   }
 
 /* nesting selectors */
+
+/* Font */
+.jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
