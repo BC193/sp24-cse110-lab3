@@ -1,0 +1,54 @@
+ .center {
+    text-align: center;
+    color: red;
+  }
+
+ #id {
+    text-align: center;
+    color: red;
+  }
+
+ * {
+    property : value;
+ }
+
+ p {
+    text-align: center;
+    color: red;
+  }
+
+  a[target] {
+    background-color: yellow;
+  }
+
+  a:hover {
+    color: #FF00FF;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: helvetica;
+  }
+
+  div p {
+    background-color: yellow;
+  }
+
+  div > p {
+    background-color: yellow;
+  }
+
+  div + p {
+    background-color: yellow;
+  }
+
+  div ~ p {
+    background-color: yellow;
+  }
+
+/* Combining Two Selectors */
+
+ h1:has(+ h2) {
+    margin: 0 0 1rem 0;
+  }
+
+/* nesting selectors */
