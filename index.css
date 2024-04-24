@@ -4,6 +4,7 @@
     align-items: stretch;
     align-content: stretch;
     flex-direction: column;
+    position:static;
  }
  .links {
     background-color: hsl(195, 53%, 79%);
@@ -47,6 +48,7 @@
     border-style: solid;
     border-color: black;
     border-radius: 10px 10px 10px 10px;
+    position: sticky;
   }
 
 /*id selector*/
@@ -81,26 +83,30 @@
 /*Selector List*/
   h3, h4, h5, h6 {
     font-family: helvetica;
+    font-size: 1vw;
   }
 
 
-  div p {
-    background-color: yellow;
+  footer form {
+    background-color: grey;
   }
 
-  div > p {
-    background-color: yellow;
+  ul > li {
+    font-weight: bold;
   }
 
-  div + p {
-    background-color: yellow;
+  summary + ol {
+    font-weight: bold;
   }
 
-  div ~ p {
-    background-color: yellow;
+  summary ~ ol {
+    font-weight: bold;
   }
 
 /* Combining Two Selectors */
+  p.jersey-15-regular{
+    font-weight: bold;
+  }
 
  h1:has(+ h2) {
     margin: 0 0 1rem 0;
