@@ -1,6 +1,10 @@
- .center {
-    text-align: center;
-    color: red;
+/*Class selector for class links*/
+ .block {
+    background-color: hsl(195, 53%, 79%);
+    color: rgb(0,0,0);
+    margin: .5cm;
+    padding: .25in;
+    border: 5px solid black;
   }
 
  #id {
