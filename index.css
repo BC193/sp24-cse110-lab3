@@ -1,9 +1,23 @@
-/*Class selector for class links*/
- .block {
+/*Class selector for class links and block*/
+ .links {
     background-color: hsl(195, 53%, 79%);
     color: rgb(0,0,0);
-    margin: .5cm;
-    padding: .25in;
+    margin-top: .5cm;
+    margin-bottom: .5cm;
+    margin-left: .5cm;
+    margin-right: .5cm;
+    padding-left: .25in;
+    padding-right: .25in;
+    padding-top: .25in;
+    padding-bottom: .25in;
+    border: 5px solid black;
+  }
+
+  .block {
+    background-color: #f5f5dc;
+    color: rgb(0,0,0);
+    margin: .5cm .5cm .5cm .5cm;
+    padding: .25in .25in .25in .25in;
     border: 5px solid black;
   }
 
@@ -12,8 +26,10 @@
     color: red;
   }
 
- * {
-    property : value;
+  /*Universal Selector*/
+ * h1{
+    font-family: helvetica;
+    margin: auto;
  }
 
  p {
@@ -29,7 +45,7 @@
     color: #FF00FF;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h2, h3, h4, h5, h6 {
     font-family: helvetica;
   }
 
