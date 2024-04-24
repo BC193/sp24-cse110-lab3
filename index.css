@@ -3,6 +3,7 @@
     display: flex;
     align-items: stretch;
     align-content: stretch;
+    flex-direction: column;
  }
  .links {
     background-color: hsl(195, 53%, 79%);
@@ -31,6 +32,10 @@
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    width: auto;
+    height: auto;
+    max-width: fit-content;
+    max-height: fit-content;
   }
 
   .block {
@@ -44,8 +49,8 @@
     border-radius: 10px 10px 10px 10px;
   }
 
- #id {
-    text-align: start;
+/*id selector*/
+ #fname {
     color: red;
   }
 
@@ -54,24 +59,30 @@
     margin: auto;
     color: black;
     text-decoration: overline underline;
+    font-size: 1em;
  }
 
  /*Element Selector*/
  h2 {
     font-family: helvetica;
+    font-size: 1rem;
   }
 
+/*Attribute Selector*/
   a[target] {
     background-color: yellow;
   }
 
-  a:hover {
+/*Pseudo-Class Selector*/
+  a:hover, a:active {
     color: #FF00FF;
   }
 
+/*Selector List*/
   h3, h4, h5, h6 {
     font-family: helvetica;
   }
+
 
   div p {
     background-color: yellow;
