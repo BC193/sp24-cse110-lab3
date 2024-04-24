@@ -6,6 +6,15 @@
     flex-direction: column;
     position:static;
  }
+
+ .image-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+ }
+
  .links {
     background-color: hsl(195, 53%, 79%);
     color: rgb(0,0,0);
@@ -83,10 +92,10 @@
 /*Selector List*/
   h3, h4, h5, h6 {
     font-family: helvetica;
-    font-size: 1vw;
+    font-size: 2vw;
   }
 
-
+/*Combinator types*/
   footer form {
     background-color: grey;
   }
@@ -102,7 +111,7 @@
   summary ~ ol {
     font-weight: bold;
   }
-  
+
 /* Font */
 .jersey-15-regular {
     font-family: "Jersey 15", sans-serif;
